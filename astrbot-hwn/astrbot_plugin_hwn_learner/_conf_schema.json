@@ -1,0 +1,48 @@
+{
+  "enabled": {
+    "description": "启用自动采集与学习",
+    "type": "bool",
+    "default": true,
+    "hint": "只有主人用户 ID 非空且完全匹配时才会采集。"
+  },
+  "owner_user_id": {
+    "description": "主人 QQ 用户 ID",
+    "type": "string",
+    "default": "",
+    "hint": "先在 QQ 中发送 /hwn whoami 获取；留空时不会采集任何消息。"
+  },
+  "distill_provider_id": {
+    "description": "蒸馏使用的模型提供商",
+    "type": "string",
+    "default": "",
+    "_special": "select_provider",
+    "hint": "留空时使用触发消息所在会话当前选择的聊天模型。"
+  },
+  "persona_id": {
+    "description": "同步更新的 AstrBot 人格 ID",
+    "type": "string",
+    "default": "hwn"
+  },
+  "batch_size": {
+    "description": "自动蒸馏批量",
+    "type": "int",
+    "default": 50,
+    "hint": "累计多少条合格消息后执行一次后台蒸馏，最小值为 3。"
+  },
+  "minimum_confidence": {
+    "description": "最低候选置信度",
+    "type": "float",
+    "default": 0.8,
+    "hint": "范围 0 到 1；候选还必须由至少 3 条不同消息支持。"
+  },
+  "max_message_chars": {
+    "description": "单条采集最大字符数",
+    "type": "int",
+    "default": 1000
+  },
+  "auto_sync_persona": {
+    "description": "画像变化后自动同步 Persona",
+    "type": "bool",
+    "default": true
+  }
+}

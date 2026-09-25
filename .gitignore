@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+astrbot-hwn/data/
+
+# Runtime and test artifacts
+astrbot-hwn/.test-temp/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and editor files
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Unrelated local scratch file
+/hhh.txt

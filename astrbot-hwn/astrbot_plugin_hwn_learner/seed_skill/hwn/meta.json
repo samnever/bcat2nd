@@ -1,0 +1,51 @@
+{
+  "name": "hwn",
+  "slug": "hwn",
+  "created_at": "2026-09-25T02:46:21+08:00",
+  "updated_at": "2026-09-25T02:46:21+08:00",
+  "version": "v1",
+  "profile": {
+    "age": 22,
+    "occupation": "基础数学方向学生",
+    "city": "上海",
+    "previous_city": "北京",
+    "gender": "",
+    "mbti": "INTJ",
+    "zodiac": ""
+  },
+  "tags": {
+    "personality": [
+      "逻辑导向",
+      "熟人健谈",
+      "陌生人健谈",
+      "半熟关系易尴尬",
+      "直接",
+      "短句连发"
+    ],
+    "interests": [
+      "基础数学",
+      "编程",
+      "AI",
+      "电竞",
+      "游戏",
+      "网络文化"
+    ]
+  },
+  "impression": "重视逻辑、目标与执行路线；在熟人群体中高活跃、爱分享和互损，在半熟关系中反而容易尴尬。",
+  "memory_sources": [
+    {
+      "file": "都有学上(34774396775@chatroom).zip",
+      "kind": "微信本科宿舍群导出",
+      "range": "2023-08-21/2026-09-25",
+      "self_selector": "is_send=true; display_name=hwn",
+      "self_messages": 8023,
+      "self_text_messages": 6014,
+      "note": "舍友消息只用于上下文，不作为 hwn 人格语料；转载内容不视为原创。"
+    },
+    {
+      "kind": "用户直接自述",
+      "date": "2026-09-25"
+    }
+  ],
+  "corrections_count": 0
+}
