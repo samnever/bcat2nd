@@ -5,7 +5,7 @@ desc: |
   为 hwn 数字自我提供 QQ 消息采集、批量蒸馏、显式事实/纠正写入、版本备份和 AstrBot Persona 同步。
 version: 1.0.0
 author: samnever
-repo: https://github.com/samnever/astrbot_plugin_hwn_learner
+repo: https://github.com/samnever/bcat2nd
 astrbot_version: ">=4.24,<5"
 support_platforms:
   - qq_official
